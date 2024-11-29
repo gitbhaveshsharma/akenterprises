@@ -19,7 +19,7 @@ const Modal: React.FC<ModalProps> = ({
   if (!isOpen) return null;
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center">
+    <div className="fixed inset-0 flex items-center justify-center z-50">
       {/* Overlay */}
       <div
         className="absolute inset-0 bg-black/70 backdrop-blur-[25px] animate-fade-in"

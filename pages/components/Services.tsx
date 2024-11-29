@@ -51,7 +51,7 @@ const Services = () => {
             <button
               key={filter.id}
               onClick={() => setActiveFilter(filter.id)}
-              className={`px-4 py-2 rounded-full transition-all duration-300 
+              className={`px-4 py-2 rounded-full transition-all duration-1000 
                 ${
                   activeFilter === filter.id
                     ? "border-2 border-blue-500 bg-blue-50 text-blue-700"

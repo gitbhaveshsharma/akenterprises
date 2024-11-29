@@ -32,7 +32,7 @@ const Footer = () => {
             <h3 className="text-xl font-bold mb-4">Contact Details</h3>
             <div className="text-gray-300 text-sm space-y-2">
               <p>Phone: +91 9660162221</p>
-              <p>Email: khanna.apurv1981@gmail.com</p>
+              <p>Email: enterprisesak773@gmail.com</p>
               <p className="leading-relaxed">
                 902, Mondeal Square, Beside Sapath-5,
                 <br />
@@ -48,7 +48,15 @@ const Footer = () => {
         <div className="border-t border-gray-800 mt-12 pt-8 text-center">
           <p className="text-gray-400 text-sm">
             AK Enterprises 2024. All Rights Reserved | Design by{" "}
-            <span className="text-blue-400"><a href="https://aimintlabs.com/" target="_blank" rel="noopener noreferrer">Aimint Labs</a></span>
+            <span className="text-blue-400">
+              <a
+                href="https://aimintlabs.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Aimint Labs
+              </a>
+            </span>
           </p>
         </div>
       </div>
